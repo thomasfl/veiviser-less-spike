@@ -21,10 +21,11 @@
     "typescript": "3.3.3"
   },
   "scripts": {
-    "start": "craco start",
+    "start": "npm run reset-files && craco start",
     "build": "craco build",
     "test": "craco test",
     "copy-files": "cpx build/static/css/main.chunk.css public",
+    "reset-files": "cpx src/main.chunk.css public",
     "prepare-for-codesandbox": "craco build && npm run copy-files",
     "eject": "react-scripts eject"
   },
