@@ -20,6 +20,7 @@
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
+    "prepare-for-codesandbox": "craco build && npm run copy-files",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
