@@ -5,7 +5,7 @@ import "./index.less";
 const App: React.FC = () => {
   return (
     <div className="veiviser">
-      Dette er en test på:
+      Dette er en test på 123:
       <ul>
         <li>Create react app</li>
         <li>Typescript</li>
